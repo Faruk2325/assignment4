@@ -27,5 +27,19 @@
             </div>
         </div>
     </header>
+     <hr class="my-4 text-gray-300">
+    <main class="w-[75%] mx-auto">
+        <div class="flex justify-between ">
+            <h1 class="text-xl text-blue-900 font-bold">Available Jobs</h1>
+            <p class="text-gray-600 font-bold text-xl"><Span id="AllJob">0</Span> Jobs</p>
+        </div>
+        <div class="p-2.5">
+            <button onclick="toggle('btn-alljob')" id="btn-alljob"
+                class="btn btn-outline bg-blue-800 text-white">All</button>
+            <button onclick="toggle('btn-Interview')" id="btn-Interview"
+                class="btn btn-outline bg-blue-800 text-white">Interview</button>
+            <button onclick="toggle('btn-Rejected')" id="btn-Rejected"
+                class="btn btn-outline bg-blue-800 text-white">Rejected</button>
+        </div>
 </body>
 </html>
